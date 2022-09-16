@@ -25,3 +25,7 @@
    5. admin
       1. NoticeAdmin
       2. python manage.py createsuperuser
+   6. views
+      1. notice_list.html
+   7. urls
+      1. notice:list
