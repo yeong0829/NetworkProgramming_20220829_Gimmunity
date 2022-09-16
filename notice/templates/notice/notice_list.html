@@ -11,7 +11,7 @@
     <h1>공지사항</h1>
     {% for notice in notice_list %}
 
-        <div>{{ notice.title }}</div>
+        <div><a href="{% url 'notice:detail' pk=notice.pk %}">{{ notice.title }}</a></div>
     {% endfor %}
 </body>
 </html>
